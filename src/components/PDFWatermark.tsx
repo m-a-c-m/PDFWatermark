@@ -89,6 +89,7 @@ export default function PDFWatermark({ locale = "es" }: Props) {
           opacity,
           rotate: degrees(rotation),
         });
+
       }
 
       const outBytes = await doc.save();
@@ -237,6 +238,7 @@ export default function PDFWatermark({ locale = "es" }: Props) {
             </div>
           </div>
 
+          {/* Preview badge */}
           <div className="flex items-center justify-center rounded-xl border border-border/20 bg-surface/20 py-6">
             <span
               className="select-none font-bold uppercase tracking-wider"

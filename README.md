@@ -1,6 +1,6 @@
-# 💧 Marca de Agua PDF Online Gratis — Añadir Watermark
+# PDF Watermark — Free Online Tool
 
-**Free PDF Watermark tool.** Add a custom text watermark to every page of a PDF document. Configure position (diagonal, center, top, bottom), font size (12–120pt), opacity (5–100%) and color. Live preview before applying. No sign-up, no ads, 100% client-side.
+**PDF Watermark.** Add text watermark to all PDF pages. Configurable position, opacity and color. No sign-up, no ads, 100% client-side.
 
 🌐 **Demo en vivo / Live demo:** [miguelacm.es/tools/pdf-watermark](https://miguelacm.es/tools/pdf-watermark)
 
@@ -13,15 +13,9 @@
 
 ## ✨ Features
 
-- 💧 **Texto personalizado / Custom text:** Any text up to 80 characters — CONFIDENTIAL, DRAFT, your name, etc.
-- 📍 **4 posiciones / 4 positions:** Diagonal (45° rotation), Center, Top, Bottom
-- 🔤 **Tamaño de fuente / Font size:** Slider 12–120pt using HelveticaBold (PDF standard font)
-- 🔆 **Opacidad / Opacity:** Slider 5–100% for subtle or prominent watermarks
-- 🎨 **Color:** Full color picker for any hex color
-- 👁️ **Vista previa en vivo / Live preview:** Real-time badge preview updates as you type and adjust
-- 📄 **Todas las páginas / All pages:** Watermark is applied to every page in a single pass
-- 🔒 **Sin servidor / Zero server:** All processing via pdf-lib — your file never leaves your device
-- 📦 **Embebible / Embeddable:** Use as iframe on any website
+- **💧 Any text:** Stamp a text watermark across every page of the PDF.
+- **🎨 Full control:** Position, opacity, rotation, size and color are all adjustable.
+- **🔒 100% private:** Watermarking runs locally with pdf-lib.
 
 ---
 
@@ -40,13 +34,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```env
 NEXT_PUBLIC_SITE_URL=https://miguelacm.es/tools/pdf-watermark
+NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/pdf-watermark
 ```
 
 ---
 
 ## 📦 Embed on your website
-
-### Iframe (plug & play)
 
 ```html
 <iframe
@@ -63,11 +56,11 @@ NEXT_PUBLIC_SITE_URL=https://miguelacm.es/tools/pdf-watermark
 
 ```html
 <a href="https://miguelacm.es/tools/pdf-watermark" target="_blank" rel="noopener">
-  Marca de agua PDF gratis por MACM
+  PDF Watermark — free tool by MACM
 </a>
 ```
 
-> 💡 The link option generates a real backlink that benefits the project. Recommended if your platform supports custom HTML.
+> 💡 The link option generates a real backlink that benefits the project.
 
 ---
 
@@ -75,11 +68,11 @@ NEXT_PUBLIC_SITE_URL=https://miguelacm.es/tools/pdf-watermark
 
 | Technology | Version | Purpose |
 |---|---|---|
-| [Next.js](https://nextjs.org) | 16 | React framework + SSG |
+| [Next.js](https://nextjs.org) | 16 | React framework |
 | [TypeScript](https://www.typescriptlang.org) | 5 | Type safety |
 | [Tailwind CSS](https://tailwindcss.com) | 4 | Styling |
-| [pdf-lib](https://github.com/Hopding/pdf-lib) | 1 | PDF watermark text rendering |
 | [react-icons](https://react-icons.github.io/react-icons/) | 5 | Icons |
+| `pdf-lib` | — | Core logic |
 
 ---
 
